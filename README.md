@@ -60,9 +60,12 @@ Lastly, the sequencer FSM block is added to the final sequencer .bdf file along 
 ## Repository Structure
 
 ```
-├── number_sequencer.v       # Top-level Verilog module
-├── block_diagram.bdf        # Quartus Prime block diagram file
-├── README.md                # Project documentation
+├── seven_segment_converter.v    # Seven-segment display output logic
+├── sid_sequencer_comb.v         # Combinational FSM logic (next state & output)
+├── sid_sequencer.bdf            # Top-level block diagram
+├── sid_sequencer_fsm.bdf        # FSM block diagram
+├── state_register.bdf           # State register schematic
+└── README.md                    # Project documentation
 ```
 
 ---
