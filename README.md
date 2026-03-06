@@ -41,6 +41,12 @@ The full design was built and verified in **Intel Quartus Prime**, including:
 
 ---
 
+## Block Diagram
+
+<img width="1921" height="708" alt="image" src="https://github.com/user-attachments/assets/51e6b2a1-74f0-4d03-b8e6-2ba67a7d8b2a" />
+
+---
+
 ## Repository Structure
 
 ```
