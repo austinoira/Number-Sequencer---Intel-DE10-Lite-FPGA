@@ -43,6 +43,16 @@ The full design was built and verified in **Intel Quartus Prime**, including:
 
 ## Block Diagram
 
+First, the schematic for the state register of the FSM was built using built-in Quartus Prime logical block units.
+
+<img width="998" height="421" alt="image" src="https://github.com/user-attachments/assets/6227ecce-27da-4e5f-967b-db6f5c781970" />
+
+Second, the sequencer FSM schematic was built by adding the .v logical block and the state register block.
+
+<img width="889" height="297" alt="image" src="https://github.com/user-attachments/assets/51e3d8bf-7e99-4b61-9ff8-4c1c6249186a" />
+
+Lastly, the sequencer FSM block is added to the final sequencer .bdf file along with the seven-segment display converter .v file and the LPM_counter. 
+
 <img width="1921" height="708" alt="image" src="https://github.com/user-attachments/assets/51e6b2a1-74f0-4d03-b8e6-2ba67a7d8b2a" />
 
 ---
