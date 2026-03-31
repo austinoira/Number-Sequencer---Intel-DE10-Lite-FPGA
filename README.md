@@ -3,6 +3,13 @@
 A digital number sequencer implemented on the **Intel DE10-Lite FPGA board** using Verilog HDL and Intel Quartus Prime. The design uses a **Finite State Machine (FSM)** to cycle through number sequences displayed on the onboard HEX seven-segment display — even numbers when the switch is off, and odd numbers when the push button is held.
 
 ---
+# Video Demo
+
+![Number Sequencer Demo](https://github.com/user-attachments/assets/2c525970-1f8c-46b7-9cf1-615e30d31c68)
+
+Link to full video on youtube: https://youtube.com/shorts/elHGJ45s2p8
+
+---
 
 ## Built With
 
